@@ -51,12 +51,12 @@ docker run -p 5000:5000 ImageID
    
     i. We will send POST request
 
-    ```bash
+    
  curl -X POST -H "Content-Type: application/json" -d '{"num1": 8, "num2": 9}' http://127.0.0.1:5000/sum  
 ```
     ii.and see this -
     
-    ```bash
+    
 {          
   "sum": 17
 } 
